@@ -1,0 +1,20 @@
+/* line 3, ../sass/website/home/_template.scss */
+.barra-topo .redes-sociais {
+  background: green;
+  height: 30px;
+}
+/* line 7, ../sass/website/home/_template.scss */
+.barra-topo .pesquisa {
+  background: yellow;
+  height: 30px;
+}
+
+/* line 14, ../sass/website/home/_template.scss */
+.area-menu .menu-principal ul li {
+  display: inline;
+}
+
+/* line 3, ../sass/website/home/_footer.scss */
+footer .menu-rodape ul li {
+  display: inline;
+}
