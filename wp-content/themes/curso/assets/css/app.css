@@ -1,15 +1,33 @@
-/* line 3, ../sass/website/home/_template.scss */
+/* line 11, ../sass/website/home/_index.scss */
+.conteudo .noticias .vermelho {
+  color: red;
+  font-weight: bold;
+}
+/* line 15, ../sass/website/home/_index.scss */
+.conteudo .noticias .verde {
+  background: green;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* line 1, ../sass/website/home/_template.scss */
+.wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+/* line 7, ../sass/website/home/_template.scss */
 .barra-topo .redes-sociais {
   background: green;
   height: 30px;
 }
-/* line 7, ../sass/website/home/_template.scss */
+/* line 11, ../sass/website/home/_template.scss */
 .barra-topo .pesquisa {
   background: yellow;
   height: 30px;
 }
 
-/* line 14, ../sass/website/home/_template.scss */
+/* line 18, ../sass/website/home/_template.scss */
 .area-menu .menu-principal ul li {
   display: inline;
 }
