@@ -2,18 +2,26 @@
 
 <div class="conteudo">
 	<main>
-		<section class="slide container">Slider</section>
-		<section class="servicos container">Serviços</section>
-		<section class="meio container">
-			<div class="row">
-				<aside class="barra-lateral col-md-3">Barra Lateral</aside>
-				<div class="noticias col-md-9">
-					<p>Esta será a área de notícias da página home</p>
+		<section class="slide">
+			<div class="container">Slider</div>
+		</section>
+		<section class="servicos">
+			<div class="container">Serviços</div>
+		</section>
+		<section class="meio">
+			<div class="container">
+				<div class="row">
+					<aside class="barra-lateral col-md-3">Barra Lateral</aside>
+					<div class="noticias col-md-9">
+						<p>Esta será a área de notícias da página home</p>
+					</div>
 				</div>
 			</div>
 		</section>
-		<section class="mapa container">Mapa</section>
-	</main>
+		<section class="mapa">
+			<div class="container">Mapa</div>
+		</section>
+	</main>	
 </div>
 
 <?php get_footer(); ?>

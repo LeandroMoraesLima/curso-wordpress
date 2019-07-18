@@ -1,6 +1,26 @@
 footer{
-	
+	background: #000; 
+	padding: 15px 0; 
+	color: #fcfae1;
+
+	.menu-rodape ul{ 
+		list-style: none; 
+		padding: 0; 
+		margin: 0; 
+		font-size: 20px; 
+	}
 	.menu-rodape ul li{
 		display: inline;
+		margin: 0 15px 0 0;
+	}
+	.menu-rodape ul li:last-child{ 
+		margin: 0; 
+	}
+	.menu-rodape ul li a{ 
+		color: #fcfae1;  
+		text-decoration: none;
+	}
+	.menu-rodape ul  li.current-menu-item a{ 
+		color:#e58888; 
 	}
 }     
