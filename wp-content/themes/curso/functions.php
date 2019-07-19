@@ -31,26 +31,26 @@ add_theme_support('post-formats', array('video', 'image'));
 
 //Registrando sidebars
 if (function_exists('register_sidebars')){
-	register_sidebars(
+	register_sidebar(
 		array(
 			'name'           => 'Barra Lateral 1',
 			'id'             => 'sidebar-1',
 			'description'    => 'Barra lateral da página home',
 			'before_widget'  => '<div class="widget-wrapper">',
 			'after_widget'   => '</div>',
-			'before_title'  => '<h2 class="widget-titulo">',
-			'after_title'   => '</h2>',
+			'before_title'   => '<h2 class="widget-titulo">',
+			'after_title'    => '</h2>',
 		)
 	);
-	register_sidebars(
+	register_sidebar(
 		array(
 			'name'           => 'Barra Lateral 2',
 			'id'             => 'sidebar-2',
 			'description'    => 'Barra lateral da página blog',
 			'before_widget'  => '<div class="widget-wrapper">',
 			'after_widget'   => '</div>',
-			'before_title'  => '<h2 class="widget-titulo">',
-			'after_title'   => '</h2>',
+			'before_title'   => '<h2 class="widget-titulo">',
+			'after_title'    => '</h2>',
 		)
 	);
 }

@@ -25,29 +25,40 @@
 .conteudo .meio .barra-lateral {
   background: #f6e497;
   padding: 20px;
+  height: fit-content;
 }
-/* line 27, ../sass/website/home/_index.scss */
+/* line 28, ../sass/website/home/_index.scss */
 .conteudo .meio .noticias .wp-post-image {
   float: left;
   margin: 0 15px 10px 0;
 }
-/* line 31, ../sass/website/home/_index.scss */
+/* line 32, ../sass/website/home/_index.scss */
 .conteudo .meio .noticias .post-format-image h1 {
   color: #fff;
   background: #717171;
   padding: 15px;
 }
-/* line 36, ../sass/website/home/_index.scss */
+/* line 37, ../sass/website/home/_index.scss */
 .conteudo .meio .noticias .post-format-video h1 {
   color: #fff;
   background: #211e1e;
   padding: 15px;
 }
-/* line 41, ../sass/website/home/_index.scss */
+/* line 42, ../sass/website/home/_index.scss */
 .conteudo .meio .noticias .post-format-padrao h1 {
   color: #444;
   background: #d2d2d2;
   padding: 15px;
+}
+/* line 49, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .noticia-destaque .miniatura {
+  max-height: 400px;
+  overflow: hidden;
+}
+/* line 56, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .noticia-secundaria .miniatura {
+  max-height: 150px;
+  overflow: hidden;
 }
 
 /*

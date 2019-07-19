@@ -6,8 +6,7 @@
 	<main>
 		<section class="meio">
 			<div class="container">
-				<div class="row">
-					<aside class="barra-lateral col-md-3">Barra Lateral</aside>
+				<div class="row">					
 					<div class="noticias col-md-9">
 						<?php
 						//Se houver algum post
@@ -25,10 +24,12 @@
 						endif; 
 						?>
 					</div>
+					<aside class="barra-lateral col-md-3">
+						<?php get_sidebar('blog'); ?>
+					</aside>
 				</div> 
 			</div>
 		</section>
-		<section class="mapa container">Mapa</section>
 	</main>
 </div>
 

@@ -21,6 +21,7 @@
 		.barra-lateral{
 			background: #f6e497; 
 			padding: 20px;
+			height: fit-content;
 		}
 		.noticias{
 			
@@ -42,6 +43,20 @@
 				color: #444; 
 				background: #d2d2d2; 
 				padding: 15px; 
+			}
+			.noticia-destaque{
+
+				.miniatura{
+					max-height: 400px;
+					overflow: hidden;
+				}
+			}
+			.noticia-secundaria{
+
+				.miniatura{
+					max-height: 150px;
+					overflow: hidden;
+				}
 			}
 		}
 	}
