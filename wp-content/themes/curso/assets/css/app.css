@@ -1,20 +1,186 @@
-/* line 3, ../sass/website/home/_template.scss */
+@charset "UTF-8";
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+/* line 6, ../sass/website/home/_index.scss */
+.conteudo .slide {
+  padding: 25px 0;
+}
+/* line 9, ../sass/website/home/_index.scss */
+.conteudo .servicos {
+  background: #4c1b1b;
+  padding: 25px 0;
+  color: #fefefe;
+}
+/* line 14, ../sass/website/home/_index.scss */
+.conteudo .meio {
+  padding: 25px 0;
+}
+/* line 17, ../sass/website/home/_index.scss */
+.conteudo .meio h1 {
+  color: #4c1b1b;
+  text-transform: uppercase;
+}
+/* line 21, ../sass/website/home/_index.scss */
+.conteudo .meio .barra-lateral {
+  background: #f6e497;
+  padding: 20px;
+  height: fit-content;
+}
+/* line 28, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+/* line 32, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .post-format-image h1 {
+  color: #fff;
+  background: #717171;
+  padding: 15px;
+}
+/* line 37, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .post-format-video h1 {
+  color: #fff;
+  background: #211e1e;
+  padding: 15px;
+}
+/* line 42, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .post-format-padrao h1 {
+  color: #444;
+  background: #d2d2d2;
+  padding: 15px;
+}
+/* line 49, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .noticia-destaque .miniatura {
+  max-height: 400px;
+  overflow: hidden;
+}
+/* line 56, ../sass/website/home/_index.scss */
+.conteudo .meio .noticias .noticia-secundaria .miniatura {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+/*
+Descri├º├úo: Folha de estilos criada para o curso "Criando Temas Customizados com WordPress"
+Autor: Leandro Moraes
+Homepage: http://www.websitesmaringa.com.br
+*/
+/* line 7, ../sass/website/home/_template.scss */
+body {
+  font: 16px/1.6 'Oswald', sans-serif;
+}
+
+/* line 8, ../sass/website/home/_template.scss */
+body p {
+  font: 16px/1.6 'Lato', sans-serif;
+}
+
+/* line 9, ../sass/website/home/_template.scss */
+h1 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+/* line 10, ../sass/website/home/_template.scss */
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* line 11, ../sass/website/home/_template.scss */
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/* line 12, ../sass/website/home/_template.scss */
+h4 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+/* line 15, ../sass/website/home/_template.scss */
+.wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+/* line 19, ../sass/website/home/_template.scss */
+.barra-topo {
+  background: #b9121b;
+  color: #fff;
+  padding: 15px 0;
+}
+/* line 24, ../sass/website/home/_template.scss */
 .barra-topo .redes-sociais {
-  background: green;
   height: 30px;
 }
-/* line 7, ../sass/website/home/_template.scss */
+/* line 27, ../sass/website/home/_template.scss */
 .barra-topo .pesquisa {
-  background: yellow;
   height: 30px;
 }
 
-/* line 14, ../sass/website/home/_template.scss */
+/* line 31, ../sass/website/home/_template.scss */
+.area-menu {
+  background: #f3f3f3;
+  padding: 15px 0;
+}
+/* line 35, ../sass/website/home/_template.scss */
+.area-menu .menu-principal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+}
+/* line 41, ../sass/website/home/_template.scss */
 .area-menu .menu-principal ul li {
   display: inline;
+  margin: 0 30px 0 0;
+}
+/* line 45, ../sass/website/home/_template.scss */
+.area-menu .menu-principal ul li:last-child {
+  margin: 0;
+}
+/* line 48, ../sass/website/home/_template.scss */
+.area-menu .menu-principal ul li a {
+  text-transform: uppercase;
+  color: #4c1b1b;
+  text-decoration: none;
+}
+/* line 53, ../sass/website/home/_template.scss */
+.area-menu .menu-principal ul li.current-menu-item a {
+  color: #e58888;
 }
 
-/* line 3, ../sass/website/home/_footer.scss */
+/* line 1, ../sass/website/home/_footer.scss */
+footer {
+  background: #000;
+  padding: 15px 0;
+  color: #fcfae1;
+}
+/* line 6, ../sass/website/home/_footer.scss */
+footer .menu-rodape ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+/* line 12, ../sass/website/home/_footer.scss */
 footer .menu-rodape ul li {
   display: inline;
+  margin: 0 15px 0 0;
+}
+/* line 16, ../sass/website/home/_footer.scss */
+footer .menu-rodape ul li:last-child {
+  margin: 0;
+}
+/* line 19, ../sass/website/home/_footer.scss */
+footer .menu-rodape ul li a {
+  color: #fcfae1;
+  text-decoration: none;
+}
+/* line 23, ../sass/website/home/_footer.scss */
+footer .menu-rodape ul li.current-menu-item a {
+  color: #e58888;
 }

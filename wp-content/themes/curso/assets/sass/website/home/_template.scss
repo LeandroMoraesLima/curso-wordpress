@@ -1,17 +1,56 @@
+/*
+Descrição: Folha de estilos criada para o curso "Criando Temas Customizados com WordPress"
+Autor: Leandro Moraes
+Homepage: http://www.websitesmaringa.com.br
+*/
+
+body{ font: 16px/1.6 'Oswald', sans-serif;  }
+body p{ font: 16px/1.6 'Lato', sans-serif; }
+h1{ font-size: 28px; margin-top: 0; }
+h2{ font-size: 24px; margin-top: 0;}
+h3{ font-size: 20px; margin-top: 0;}
+h4{ font-size: 18px; margin-top: 0;}
+
+
+.wp-post-image{
+	float: left;
+	margin: 0 15px 10px 0;
+}
 .barra-topo{
+	background: #b9121b;
+	color: #fff;
+	padding: 15px 0;
 
 	.redes-sociais{
-		background: green;
 		height: 30px;
 	}
 	.pesquisa{
-	background: yellow;
-	height: 30px; 
+		height: 30px; 
 	}
 }
 .area-menu{
+	background: #f3f3f3;
+	padding: 15px 0;
 
+	.menu-principal ul{ 
+		list-style: none; 
+		padding: 0; 
+		margin: 0; 
+		font-size: 28px; 
+	}
 	.menu-principal ul li{
 		display: inline;
+		margin: 0 30px 0 0;
+	}
+	.menu-principal ul li:last-child{ 
+		margin: 0; 
+	}
+	.menu-principal ul li a{ 
+		text-transform: uppercase; 
+		color: #4c1b1b;  
+		text-decoration: none;
+	}
+	.menu-principal ul  li.current-menu-item a{ 
+		color: #e58888; 
 	}
 }    
